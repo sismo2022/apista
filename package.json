@@ -14,7 +14,7 @@
     "@strapi/plugin-users-permissions": "4.1.5",
     "@strapi/strapi": "4.1.5",
     "mysql": "2.18.1",
-    "yarn": "^1.22.18"
+    "yarn": "1.22.17"
   },
   "author": {
     "name": "A Strapi developer"
@@ -23,8 +23,8 @@
     "uuid": "95d91bd1-2f8e-44fc-80ce-821a5baf56f9"
   },
   "engines": {
-    "node": ">=12.x.x <=16.x.x",
-    "npm": ">=6.0.0"
+    "node": "16.13.1",
+    "npm": "8.5.1"
   },
   "license": "MIT"
 }
