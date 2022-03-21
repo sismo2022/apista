@@ -1,0 +1,19 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "mysql://xphqak4r6haasc7b:by9qjn0skfkjih1s@acw2033ndw0at1t7.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/as2kic8908kku8zk",
+      "settings": {
+        "client": "mysql",
+        "host": "${process.env.DATABASE_HOST || 'acw2033ndw0at1t7.cbetxkdyhwsb.us-east-1.rds.amazonaws.com'}",
+        "port": "${process.env.DATABASE_PORT || 3306}",
+        "database": "${process.env.DATABASE_NAME || 'as2kic8908kku8zk'}",
+        "username": "${process.env.DATABASE_USERNAME || 'xphqak4r6haasc7b'}",
+        "password": "${process.env.DATABASE_PASSWORD || 'as2kic8908kku8zk'}"
+      },
+      "options": {
+        "ssl": false
+      }
+    }
+  }
+}
