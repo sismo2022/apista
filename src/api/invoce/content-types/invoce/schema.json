@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "invoces",
+  "info": {
+    "singularName": "invoce",
+    "pluralName": "invoces",
+    "displayName": "invoice",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "InvoiceNumber": {
+      "type": "string",
+      "unique": false
+    },
+    "montant": {
+      "type": "float"
+    },
+    "commentaire": {
+      "type": "richtext"
+    }
+  }
+}
